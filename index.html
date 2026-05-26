@@ -4,69 +4,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VA Solutions | Digital products built with care</title>
-  <meta name="description" content="VA Solutions develops and owns digital products, including the SWAP mobile application.">
+  <meta name="description" content="VA Solutions develops practical digital products, including the SWAP mobile application.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="logo" href="index.html"><img class="logo-mark" src="assets/logo.svg" alt=""><span>VA Solutions</span></a>
+      <a class="logo" href="index.html"><img class="logo-mark" src="assets/logo.svg" alt="VA"><span>VA Solutions</span></a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html">Company</a>
         <a href="swap.html">SWAP</a>
         <a href="#contact">Contact</a>
-        <a class="nav-contact" href="mailto:info@vasolutions.top">info@vasolutions.top</a>
+        <a class="nav-contact" href="mailto:info@vasolutions.top"><span class="mail-icon">✉</span>info@vasolutions.top</a>
       </nav>
+      <button class="mobile-menu" type="button" aria-label="Open navigation">☰</button>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero home-hero">
       <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">vasolutions.top</p>
+        <div class="hero-copy">
           <h1>Digital products built with care</h1>
-          <p class="lead">VA Solutions is a software company organized by two IT professionals with strong experience in business analysis, software development, delivery, and operations.</p>
+          <p class="lead">VA Solutions is organized by two IT professionals with strong experience in business analysis, software development, delivery, and operations.</p>
           <div class="btn-row">
-            <a class="btn primary" href="swap.html">Explore SWAP</a>
-            <a class="btn secondary" href="mailto:info@vasolutions.top">Contact us</a>
-          </div>
-          <div class="hero-meta" aria-label="Company strengths">
-            <div class="meta-card"><strong>2 founders</strong><span>Hands-on IT background</span></div>
-            <div class="meta-card"><strong>Product-first</strong><span>Analysis before build</span></div>
-            <div class="meta-card"><strong>Global scope</strong><span>Built for broad markets</span></div>
+            <a class="btn primary" href="swap.html">Explore SWAP <span>→</span></a>
+            <a class="btn secondary" href="#contact">Contact</a>
           </div>
         </div>
-        <div class="office-visual">
-          <img src="assets/office-coding.svg" alt="People coding in a bright office">
-        </div>
+        <figure class="hero-photo">
+          <img src="assets/office-team.png" alt="People working on software in an office">
+        </figure>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">What we focus on</p>
-          <h2>Software work that starts from the product problem</h2>
-          <p>We work on products where clear requirements, useful design, stable delivery, and operational discipline matter.</p>
-        </div>
-        <div class="card-grid">
-          <article class="card"><div class="icon">01</div><h3>Product thinking</h3><p>We define the user flow, business rules, edge cases, and release scope before code becomes expensive.</p></article>
-          <article class="card"><div class="icon">02</div><h3>Engineering delivery</h3><p>We build practical software with clear structure, maintainable data flow, and room for future products.</p></article>
-          <article class="card"><div class="icon">03</div><h3>Operational reliability</h3><p>We plan for monitoring, errors, moderation, support, and the realities of running software after launch.</p></article>
-          <article class="card"><div class="icon">04</div><h3>Privacy-aware approach</h3><p>We limit data collection to what the product needs and document user-facing rules in plain language.</p></article>
-        </div>
+    <section class="section compact-section">
+      <div class="container feature-grid company-features">
+        <article class="feature-card">
+          <div class="feature-icon">♢</div>
+          <h2>Product thinking</h2>
+          <p>We focus on real user needs and build products that solve everyday problems.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon code-icon">&lt;/&gt;</div>
+          <h2>Engineering delivery</h2>
+          <p>Clean architecture, tested code, and continuous improvement at every step.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">▱</div>
+          <h2>Operational reliability</h2>
+          <p>We build systems designed for uptime, performance, and scalable growth.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">▢</div>
+          <h2>Privacy-aware approach</h2>
+          <p>User privacy is a priority. We collect only what is needed and protect it by design.</p>
+        </article>
       </div>
     </section>
 
-    <section class="section" id="contact">
-      <div class="container cta-band contact-band">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Talk to VA Solutions</h2>
-          <p class="lead">For company questions, partnerships, or product inquiries, contact us at info@vasolutions.top.</p>
-        </div>
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card">
+        <p class="eyebrow">Contact</p>
+        <h2>Talk to VA Solutions</h2>
+        <p>For company questions, partnerships, or product inquiries, contact us at info@vasolutions.top.</p>
         <a class="btn primary" href="mailto:info@vasolutions.top">info@vasolutions.top</a>
       </div>
     </section>
@@ -75,7 +77,8 @@
   <footer class="site-footer">
     <div class="container footer-row">
       <span>© 2026 VA Solutions LLC. Tbilisi, Georgia.</span>
-      <div class="footer-links"><a href="index.html">Company</a><a href="swap.html">SWAP</a></div>
+      <span class="footer-divider">|</span>
+      <a href="mailto:info@vasolutions.top">info@vasolutions.top</a>
     </div>
   </footer>
 </body>
