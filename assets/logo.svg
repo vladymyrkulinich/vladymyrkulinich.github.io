@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>VA Solutions logo</title>
+  <defs>
+    <linearGradient id="g" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#23c55e"/>
+      <stop offset="0.58" stop-color="#12860f"/>
+      <stop offset="1" stop-color="#0b6f3a"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#148a2e" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect x="6" y="6" width="52" height="52" rx="14" fill="url(#g)" filter="url(#s)"/>
+  <path d="M17 25.4 30.2 17a4 4 0 0 1 4.3 6.8l-8.1 5.1 8.1 5.3a4 4 0 1 1-4.4 6.7L17 32.4a4.1 4.1 0 0 1 0-7Z" fill="#fff"/>
+  <path d="M42.5 19.2a4 4 0 0 1 4 4v17.6a4 4 0 1 1-8 0V23.2a4 4 0 0 1 4-4Z" fill="#fff" opacity="0.96"/>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">People coding in an office</title>
+  <desc id="desc">A bright office scene with three people working at laptops and monitors.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#effaff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10231d"/>
+      <stop offset="1" stop-color="#1d4034"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#183026" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="758" height="518" rx="8" fill="#fff" stroke="#d9e5dd"/>
+  <rect x="1" y="1" width="758" height="140" rx="8" fill="url(#wall)"/>
+  <path d="M1 140h758" stroke="#d9e5dd"/>
+  <rect x="1" y="366" width="758" height="153" fill="#eef4f0"/>
+  <path d="M1 366h758" stroke="#d9e5dd"/>
+  <g opacity=".96">
+    <rect x="474" y="39" width="105" height="58" rx="29" fill="#fff"/>
+    <rect x="560" y="30" width="116" height="66" rx="33" fill="#fff"/>
+    <rect x="527" y="50" width="58" height="58" rx="29" fill="#f8fffb"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="86" y="322" width="588" height="24" rx="8" fill="#c9d9cf"/>
+    <rect x="86" y="344" width="588" height="16" rx="6" fill="#9db2a5"/>
+  </g>
+  <g>
+    <rect x="168" y="196" width="136" height="86" rx="8" fill="#dbe7df"/>
+    <rect x="178" y="206" width="116" height="66" rx="4" fill="url(#screen)"/>
+    <rect x="200" y="222" width="76" height="5" rx="3" fill="#42e67a"/>
+    <rect x="200" y="239" width="54" height="5" rx="3" fill="#6ed8f0"/>
+    <rect x="200" y="256" width="72" height="5" rx="3" fill="#42e67a"/>
+    <rect x="329" y="190" width="130" height="92" rx="8" fill="#dbe7df"/>
+    <rect x="339" y="200" width="110" height="72" rx="4" fill="url(#screen)"/>
+    <rect x="358" y="216" width="68" height="5" rx="3" fill="#54e97f"/>
+    <rect x="358" y="234" width="84" height="5" rx="3" fill="#6ed8f0"/>
+    <rect x="358" y="252" width="52" height="5" rx="3" fill="#54e97f"/>
+    <rect x="486" y="198" width="120" height="84" rx="8" fill="#dbe7df"/>
+    <rect x="496" y="208" width="100" height="64" rx="4" fill="url(#screen)"/>
+    <rect x="514" y="224" width="54" height="5" rx="3" fill="#54e97f"/>
+    <rect x="514" y="241" width="70" height="5" rx="3" fill="#54e97f"/>
+    <rect x="514" y="258" width="42" height="5" rx="3" fill="#6ed8f0"/>
+  </g>
+  <g>
+    <rect x="535" y="136" width="150" height="82" rx="8" fill="#fff" stroke="#d9e5dd"/>
+    <circle cx="621" cy="178" r="21" fill="#f1e8df"/>
+    <rect x="552" y="158" width="106" height="6" rx="3" fill="#d2ecd4"/>
+    <rect x="552" y="175" width="70" height="6" rx="3" fill="#d9edf3"/>
+    <rect x="552" y="192" width="88" height="6" rx="3" fill="#d2ecd4"/>
+  </g>
+  <g>
+    <g transform="translate(112 170)">
+      <circle cx="52" cy="0" r="24" fill="#d9aa82"/>
+      <path d="M8 77c0-33 16-53 44-53s44 20 44 53v40H8Z" fill="#286696"/>
+      <path d="M5 65 45 86" stroke="#d9aa82" stroke-width="10" stroke-linecap="round"/>
+      <path d="M99 65 59 86" stroke="#d9aa82" stroke-width="10" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(318 168)">
+      <circle cx="52" cy="0" r="24" fill="#d9aa82"/>
+      <path d="M8 77c0-33 16-53 44-53s44 20 44 53v40H8Z" fill="#16840f"/>
+      <path d="M5 65 45 86" stroke="#d9aa82" stroke-width="10" stroke-linecap="round"/>
+      <path d="M99 65 59 86" stroke="#d9aa82" stroke-width="10" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(542 182)">
+      <circle cx="52" cy="0" r="23" fill="#ead9c6"/>
+      <path d="M8 72c0-31 16-49 44-49s44 18 44 49v38H8Z" fill="#223f37"/>
+      <path d="M4 61 42 82" stroke="#d9aa82" stroke-width="10" stroke-linecap="round"/>
+      <path d="M100 61 62 82" stroke="#d9aa82" stroke-width="10" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
