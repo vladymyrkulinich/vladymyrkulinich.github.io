@@ -49,7 +49,7 @@ img { max-width: 100%; }
   font-size: 18px;
 }
 .logo-mark {
-  width: 38px;
+  width: 44px;
   height: auto;
   display: block;
   box-shadow: none;
@@ -68,13 +68,6 @@ img { max-width: 100%; }
   color: var(--muted);
 }
 .mail-icon { font-size: 13px; color: var(--text); }
-.mobile-menu {
-  display: none;
-  border: 0;
-  background: transparent;
-  font-size: 25px;
-  line-height: 1;
-}
 
 .hero { padding: 36px 0 34px; }
 .hero-grid {
@@ -375,10 +368,9 @@ h3 { font-size: 17px; line-height: 1.2; margin-bottom: 8px; }
 @media (max-width: 920px) {
   .container { width: min(100% - 36px, var(--max)); }
   .nav { min-height: 68px; }
-  .nav-links { display: none; }
-  .mobile-menu { display: block; }
+  .nav-links { gap: 16px; font-size: 12px; }
   .logo { font-size: 16px; }
-  .logo-mark { width: 34px; }
+  .logo-mark { width: 40px; }
   .hero { padding-top: 28px; }
   .hero-grid,
   .swap-grid,
@@ -407,6 +399,17 @@ h3 { font-size: 17px; line-height: 1.2; margin-bottom: 8px; }
 @media (max-width: 560px) {
   .container { width: min(100% - 28px, var(--max)); }
   .site-header { position: static; }
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 0;
+  }
+  .nav-links {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   .hero-copy { max-width: none; }
   .home-hero h1 { font-size: 30px; }
   .swap-copy h1 { font-size: 30px; }
