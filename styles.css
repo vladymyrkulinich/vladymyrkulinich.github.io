@@ -229,6 +229,16 @@ h3 { font-size: 17px; line-height: 1.2; margin-bottom: 8px; }
   border-radius: 8px;
   font-weight: 800;
 }
+.swap-feature-list .swap-svg-icon svg {
+  width: 19px;
+  height: 19px;
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 .swap-feature-list h2 {
   color: var(--green-dark);
   font-size: 15px;
