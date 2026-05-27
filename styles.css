@@ -155,6 +155,20 @@ h3 { font-size: 17px; line-height: 1.2; margin-bottom: 8px; }
   font-size: 25px;
   line-height: 1;
 }
+.svg-icon {
+  width: 34px;
+  height: 34px;
+}
+.svg-icon svg {
+  width: 34px;
+  height: 34px;
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 .code-icon {
   font-size: 19px;
   font-weight: 760;
